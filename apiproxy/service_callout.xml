@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="1" name="service_callout">
+    <Basepaths>/service_callout</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1579497748000</CreatedAt>
+    <CreatedBy>reddytejaswi.srp@gmail.com</CreatedBy>
+    <Description></Description>
+    <DisplayName>service_callout</DisplayName>
+    <LastModifiedAt>1579500856700</LastModifiedAt>
+    <LastModifiedBy>reddytejaswi.srp@gmail.com</LastModifiedBy>
+    <ManifestVersion>SHA-512:d86d99add5988eb9a91c51676949a05e9705a54930031a3faf8e347bb80f77b6ae6f76ce16d34c555d8796141b7b88fd4c35244c7d13e471c4149c932a6b80d7</ManifestVersion>
+    <Policies>
+        <Policy>Assign-Message-1</Policy>
+        <Policy>Raise-Fault-1</Policy>
+        <Policy>Service-Callout-1</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources/>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>TargetEndpoint-1</TargetEndpoint>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+</APIProxy>
